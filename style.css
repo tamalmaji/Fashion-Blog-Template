@@ -1,0 +1,85 @@
+body{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+/* navbar */
+.navbar{
+    background: #000;
+    height: 40px;
+}
+.nav-item a:hover{
+    background-color: gray;
+}
+.fa{
+    color: white;
+    font-size: 15px;
+}
+.fa:hover{
+    color: black;
+}
+/* body */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.padding{
+    padding: 0;
+    margin: 0;
+}
+.position{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.mx{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.26);
+    font-size: 12px!; 
+    margin-bottom: 16px!important;
+    margin-top: 16px!important;
+}
+/* Collapsible */
+.bg-color{
+    background: #000;
+    color: white;
+}
+.bg-padding{
+    background: white;
+    color: black;
+    padding: 1px 3px;
+}
+.fa-x{
+    color: #000;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.fa-x:hover{
+    color: rgba(128, 128, 128, 0.425);
+}
+@media screen and (min-width: 995px){
+    .flex-x{
+        display: flex;
+    }
+    .left-side{
+        float: left;
+        width: 65%;
+        margin-right: 10px;
+    }
+    .right-side{
+        float: right;
+        width: 35%;
+    }
+}
+.btn-color{
+    color: #fff;
+    background-color: #f44336;
+}
+.btn-color:hover{
+    background-color: gray;
+    color: #000;
+}
